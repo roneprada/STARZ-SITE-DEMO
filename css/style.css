@@ -8,15 +8,66 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    background-color: rgba(28, 57, 70, 0.914);
 }
 
 header{
     border: solid black;
     width: 100%;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 #starz-logo{
     width: 150px;
+    margin-left: 3%;
 
+}
+
+.head{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 10px;
+    /* margin-left: 3%; */
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    /* border: solid red; */
+    height: 30px;
+    width: auto;
+    align-items: center;
+}
+
+.list1{
+    /* border: solid blue; */
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+.list1::after{
+    content: '';
+    border: solid green;
+    position: absolute;
+    margin-top: -30px;
+    /* margin-right: 100%; */
+    width: 35px;
+    /* margin-left: -40px; */
+}
+
+ul{
+    /* border: solid brown; */
+    height: 100%;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
 }
