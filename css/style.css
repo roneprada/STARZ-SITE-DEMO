@@ -214,7 +214,7 @@ header a{
     /* display: inline-block; */
     flex-direction: column;
     flex-wrap: wrap;
-    border: solid red;
+    /* border: solid red; */
     margin-top: 50px;
     margin-left: 2%;
     margin-right: 2%;
@@ -241,7 +241,7 @@ header a{
 #image-section1{
     overflow: hidden;
     overflow-x: scroll;
-    border: solid black;
+    /* border: solid black; */
     height: 90%;
     margin-top: 2px;
     width: 1150px;
@@ -254,9 +254,84 @@ header a{
 
 .grid{
     border: solid rgb(110, 110, 122);
+    border-radius: 15px;
 }
 
 .grid1{
     background-image: url(/image/ronaldoXmessi.jpg);
     background-size: cover;
+    overflow: hidden;
+}
+
+.card-bod{
+    
+}
+
+.cr7{
+    /* border: solid red; */
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    visibility: hidden;
+}
+
+.grid-text1{
+    margin-top: 30%;
+    font-size: large;
+}
+
+
+.grid-text2{
+    font-size: small;
+    font-style: italic;
+}
+
+.text1::after{
+    content: '';
+    /* border-width: thin; */
+    position: absolute;
+    /* border: solid gray; */
+    background-color: red;
+    height: 5%;
+    width: 1px;
+    margin-top: 2px;
+    margin-left: 3px;
+    
+}
+
+.messi{
+    display: flex;
+    flex-direction: row;
+    /* border: solid red; */
+    height: 40%;
+    width: 100%;
+    gap: 5%;
+    /* margin-top: 50%; */
+}
+
+.grid1:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 2s;
+    visibility: visible;
+}
+
+.grid1:hover .cr7{
+    visibility: visible;
 }
