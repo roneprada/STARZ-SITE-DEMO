@@ -11,6 +11,9 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     background-color: rgba(28, 57, 70, 0.914);
+    /* width: 80%; */
+    /* display: inline-block; */
+    overflow: hidden;
 }
 
 header{
@@ -39,6 +42,15 @@ header{
     align-items: center;
     gap: 30px;
     /* margin-left: 3%; */
+}
+
+#inside-body{
+    border: solid blue;
+    margin-top: 10px;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: inline-block;
+    height: 800px;
 }
 
 .image-logo{
@@ -132,7 +144,6 @@ margin-left: 20px;}
 .div-head{
     display: flex;
     flex-direction: row;
-    /* border: solid; */
     width: 70%;
     justify-content: space-between;
 }
@@ -174,10 +185,78 @@ header a{
 
 #header-button1{
     border: solid rgba(28, 57, 70, 0.914);
-    margin-left: -10px;
+    margin-left: -15px;
     width: 20px;
+    /* height: 40px; */
+    align-items: center;
     opacity: 0.5;
     /* background-color: rgba(28, 57, 70, 0.914); */
     background-color: white;
     box-shadow: inset 1px 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* width: 80%; */
+    /* border: solid red; */
+    height: 500px;
+    background-image: url(/image/black-panther.webp);
+    background-size: cover;
+}
+
+.second-section{
+    /* display: flex; */
+    /* display: inline-block; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: solid red;
+    margin-top: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 350px;
+    /* width: 80%; */
+    overflow: hidden;
+    /* overflow-x: scroll; */
+}
+
+.first-text{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#scrool{
+    display: flex;
+    flex-direction: column;
+    /* border: solid blueviolet; */
+    height: 100%;
+    
+}
+
+#image-section1{
+    overflow: hidden;
+    overflow-x: scroll;
+    border: solid black;
+    height: 90%;
+    margin-top: 2px;
+    width: 1150px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(20,200px);
+    grid-template-rows: 1fr;
+
+}
+
+.grid{
+    border: solid rgb(110, 110, 122);
+}
+
+.grid1{
+    background-image: url(/image/ronaldoXmessi.jpg);
+    background-size: cover;
 }
