@@ -13,7 +13,7 @@ body{
     background-color: rgba(28, 57, 70, 0.914);
     /* width: 80%; */
     /* display: inline-block; */
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 header{
@@ -263,9 +263,6 @@ header a{
     overflow: hidden;
 }
 
-.card-bod{
-    
-}
 
 .cr7{
     /* border: solid red; */
@@ -328,10 +325,261 @@ header a{
     border-radius: 15px;
     /* visibility: hidden; */
     /* opacity: 0.5; */
-    transition: 2s;
+    transition: 1s;
     visibility: visible;
 }
 
 .grid1:hover .cr7{
     visibility: visible;
 }
+
+.grid2{
+    background-image: url(/image/Interstellar-366875261-large.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.grid2:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid2:hover .cr7{
+    visibility: visible;
+}
+
+.grid3{
+    background-image: url(/image/happy\ gilmore.webp);
+    background-size: cover;
+}
+
+.grid3:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid3:hover .cr7{
+    visibility: visible;
+}
+
+.grid4{
+    background-image: url(/image/shutter\ island.jpg);
+    background-size: cover;
+}
+
+.grid4:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid4:hover .cr7{
+    visibility: visible;
+}
+
+.grid5{
+    background-image: url(/image/the-wolf-of-wallstreet.jpg);
+    background-size: cover;
+}
+
+.grid5:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid5:hover .cr7{
+    visibility: visible;
+}
+
+.grid6{
+    background-image: url(/image/elon-musk.jpg);
+    background-size: cover;
+}
+
+.grid6:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid6:hover .cr7{
+    visibility: visible;
+}
+
+.grid7{
+    background-image: url(/image/JOHN-WICK.jpeg);
+    background-size: cover;
+}
+
+.grid7:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid7:hover .cr7{
+    visibility: visible;
+}
+
+.grid8{
+    background-image: url(/image/omar\ sy.jpg);
+    background-size: cover;
+}
+
+.grid8:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid8:hover .cr7{
+    visibility: visible;
+}
+
+.grid9{
+    background-image: url(/image/les\ intouchable.jpg);
+    background-size: cover;
+}
+
+.grid9:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid9:hover .cr7{
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
