@@ -11,9 +11,22 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     background-color: rgba(28, 57, 70, 0.914);
-    /* width: 80%; */
+    width: 100%;
+    height: 100%;
     /* display: inline-block; */
-    /* overflow: hidden; */
+    overflow-x: hidden;
+}
+
+html{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* display: inline-block; */
+    width: 100%;
+    /* height: 100%; */
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden; */
 }
 
 header{
@@ -24,13 +37,15 @@ header{
     /* width: 100%; */
     margin-top: 5px;
     z-index: 2;
+    /* position: fixed; */
+    /* width: 100%; */
 }
 
 #starz-logo{
     width: 150px;
     margin-left: 3%;
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
 
 }
 
@@ -45,12 +60,17 @@ header{
 }
 
 #inside-body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: inline-block;
     border: solid blue;
-    margin-top: 10px;
+    /* margin-top: 50px; */
     overflow: hidden;
     overflow-y: scroll;
-    display: inline-block;
-    height: 800px;
+    /* display: inline-block; */
+    height: 700px;
+    /* height: 100%; */
 }
 
 .image-logo{
@@ -207,6 +227,7 @@ header a{
     height: 500px;
     background-image: url(/image/black-panther.webp);
     background-size: cover;
+    width: 100%;
 }
 
 .second-section{
@@ -218,10 +239,12 @@ header a{
     margin-top: 50px;
     margin-left: 2%;
     margin-right: 2%;
-    height: 350px;
+    height: 400px;
+    /* margin-bottom: 20px; */
     /* width: 80%; */
-    overflow: hidden;
+    /* overflow: hidden; */
     /* overflow-x: scroll; */
+    /* overflow-y: scroll; */
 }
 
 .first-text{
@@ -233,18 +256,19 @@ header a{
 #scrool{
     display: flex;
     flex-direction: column;
-    /* border: solid blueviolet; */
-    height: 100%;
+    border: solid blueviolet;
+    height: 400px;
+    width: 100%;
     
 }
 
 #image-section1{
     overflow: hidden;
     overflow-x: scroll;
-    /* border: solid black; */
+    border: solid black;
     height: 90%;
     margin-top: 2px;
-    width: 1150px;
+    width: 1350px;
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(20,200px);
