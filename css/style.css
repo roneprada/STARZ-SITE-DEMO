@@ -29,7 +29,7 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    /* overflow-x: hidden;  */
 }
 
 
@@ -48,18 +48,24 @@ header{
 }
 
 #starz-logo{
-    width: 150px;
-    margin-left: 3%;
+    width: 100%;
+    height: 50%;
+    /* margin-left: 3%; */
     /* display: flex; */
     /* align-items: center; */
+    border: solid red;
 
 }
 
 .div-head{
-    border: solid blue;
+    /* border: solid blue; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .head{
@@ -68,7 +74,10 @@ header{
     flex-wrap: wrap;
     /* justify-content: space-between; */
     align-items: center;
-    gap: 30px;
+    /* margin-top: 3%; */
+    width: 100%;
+    height: 10%;
+    gap: 3%;
     /* margin-left: 3%; */
 }
 
@@ -89,8 +98,13 @@ header{
 }
 
 .image-logo{
-/* border: solid green; */
-margin-left: 20px;}
+border: solid green;
+margin-left: 20px;
+display: flex;
+align-items: center;
+width: 15%;
+height: 100%;
+}
 
 .list{
     display: flex;
@@ -115,10 +129,10 @@ margin-left: 20px;}
     content: '';
     border: solid green;
     position: absolute;
-    margin-top: -30px;
+    margin-top: -20px;
     /* margin-right: 100%; */
     width: 35px;
-    /* margin-left: -40px; */
+    margin-left: -40px;
 }
 
 
@@ -126,17 +140,19 @@ margin-left: 20px;}
     content: '';
     border: solid green;
     position: absolute;
-    margin-top: -30px;
+    margin-top: -20px;
     /* margin-right: 100%; */
     width: 44px;
+    margin-left: -50px;
 }
 
 .list3:hover:after{
     content: '';
     border: solid green;
     position: absolute;
-    margin-top: -30px;
+    margin-top: -20px;
     /* margin-right: 100%; */
+    margin-left: -50px;
     width: 44px;
 }
 
@@ -144,8 +160,9 @@ margin-left: 20px;}
     content: '';
     border: solid green;
     position: absolute;
-    margin-top: -30px;
+    margin-top: -20px;
     /* margin-right: 100%; */
+    margin-left: -60px;
     width: 53px;
 }
 
@@ -153,8 +170,9 @@ margin-left: 20px;}
     content: '';
     border: solid green;
     position: absolute;
-    margin-top: -30px;
+    margin-top: -20px;
     /* margin-right: 100%; */
+    margin-left: -70px;
     width: 65px;
 }
 
@@ -162,7 +180,8 @@ margin-left: 20px;}
     content: '';
     border: solid green;
     position: absolute;
-    margin-top: -30px;
+    margin-top: -20px;
+    margin-left: -75px;
     /* margin-right: 100%; */
     width: 75px;
 }
@@ -171,7 +190,8 @@ margin-left: 20px;}
     content: '';
     border: solid green;
     position: absolute;
-    margin-top: -30px;
+    margin-top: -20px;
+    margin-left: -100px;
     /* margin-right: 100%; */
     width: 93px;
 }
@@ -621,8 +641,8 @@ header a{
     html,body{
         /* width: 1600px; */
         /* height: 8000px; */
-        overflow: hidden;
-        border: solid green;
+        /* overflow: hidden; */
+        /* border: solid green; */
     }
 
 
