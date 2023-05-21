@@ -58,7 +58,7 @@ header{
     /* margin-left: 3%; */
     /* display: flex; */
     /* align-items: center; */
-    border: solid red;
+    /* border: solid red; */
 
 }
 
@@ -102,8 +102,8 @@ header{
 }
 
 .container{
-    border: solid red;
-    height: 100%;
+    /* border: solid red; */
+    height: 50%;
     width: 250px;
     margin-top: 9%;
     position: absolute;
@@ -130,7 +130,7 @@ span{
     position: absolute;
     right: -40px;
     width: 20px;
-    border: solid red;
+    /* border: solid red; */
     top: 9%;
     font-size: 25px;
     cursor: pointer;
@@ -138,14 +138,16 @@ span{
 }
 
 #bars{
-    background: blue;
+    /* background: blue; */
 }
 #check:checked ~ .container{
-    transform: translateX(100%);
+    transform: translateX(-70%);
+    transition: 1s;
 }
 
 #check:checked ~ .container{
-display: contents;
+/* display: contents; */
+transition: 1s;
 visibility: visible;
 }
 
@@ -172,7 +174,7 @@ ol li a{
 }
 
 ol li a i{
-    border: solid blue;
+    /* border: solid blue; */
     width: 70px;
     font-size: 25px;
     text-align: center;
@@ -199,19 +201,20 @@ ol li:hover a{
     flex-direction: column;
     flex-wrap: wrap;
     display: inline-block;
-    border: solid blue;
+    /* border: solid blue; */
+    /* white-space: nowrap; */
     /* margin-top: 100px; */
     /* margin-left: -90%; */
     overflow: hidden;
     overflow-y: scroll;
     /* width: 100%; */
     /* display: inline-block; */
-    height: 700px;
+    /* height: 700px; */
     /* height: 100%; */
 }
 
 .image-logo{
-border: solid green;
+/* border: solid green; */
 margin-left: 20px;
 display: flex;
 align-items: center;
@@ -362,26 +365,32 @@ ion-icon {
     flex-wrap: wrap;
     flex-direction: column;
     /* width: 80%; */
-    border: solid red;
+    /* border: solid red; */
     height: 500px;
     background-image: url(/image/black-panther.webp);
     background-size: cover;
     /* width: 100%; */
 }
 
+.textp{
+    margin-top: 50px;
+    margin-left: 2%;
+}
+
 .second-section{
     /* display: flex; */
     /* display: inline-block; */
-    flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
     /* border: solid red; */
     margin-top: 50px;
     margin-left: 2%;
-    margin-right: 2%;
+    margin-right: 5%;
     height: 400px;
+    overflow: hidden;
     /* margin-bottom: 20px; */
-    /* width: 80%; */
-    /* overflow: hidden; */
+    width: 100%;
+    overflow: hidden;
     /* overflow-x: scroll; */
     /* overflow-y: scroll; */
 }
@@ -395,22 +404,24 @@ ion-icon {
 #scrool{
     display: flex;
     flex-direction: column;
-    border: solid blueviolet;
+    /* border: solid blueviolet; */
+    margin-left: 2%;
+    margin-right: 2%;
     height: 400px;
-    width: 100%;
+    /* width: 400px; */
     
 }
 
 #image-section1{
     overflow: hidden;
     overflow-x: scroll;
-    border: solid black;
+    /* border: solid black; */
     height: 90%;
     margin-top: 2px;
-    /* width: 1350px; */
+    width: 100%;
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(20,200px);
+    grid-template-columns: repeat(10,200px);
     grid-template-rows: 1fr;
 
 }
@@ -446,19 +457,6 @@ ion-icon {
 .grid-text2{
     font-size: small;
     font-style: italic;
-}
-
-.text1::after{
-    content: '';
-    /* border-width: thin; */
-    position: absolute;
-    /* border: solid gray; */
-    background-color: red;
-    height: 5%;
-    width: 1px;
-    margin-top: 2px;
-    margin-left: 3px;
-    
 }
 
 .messi{
@@ -748,6 +746,7 @@ ion-icon {
 
     #check{
         margin-top: 10%;
+        /* margin-left: 50%; */
     }
 
     #header-picture{
@@ -756,8 +755,10 @@ ion-icon {
         visibility: hidden;
         background-size: cover;
         width: 40px;
-        border: green;
+        /* border: green; */
     }
+
+    
 
     .div-head{
         border: solid purple;
@@ -775,7 +776,7 @@ ion-icon {
     }
 
     .list{
-        border: solid blue;
+        /* border: solid blue; */
         height: 100%;
         width: 100%;
         justify-content: flex-start;
@@ -798,9 +799,7 @@ ion-icon {
         margin-left: -200%;
     }
 
-    #important-button{
-        /* border: solid red; */
-    }
+    
 
 
 }
