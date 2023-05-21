@@ -10,6 +10,7 @@ padding: 0;
 
 :root{
     --main-color:rgba(28, 57, 70, 0.914);
+    --second-color: lightblue;
 }
 
 body{
@@ -100,122 +101,96 @@ header{
     color: red;
 }
 
-.list-hidden{
-    /* border: solid red; */
-    position: fixed;
-    margin-top: 60px;
-    margin-left: 90%;
-    background: rgba(0,0,0,0.5);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    /* backdrop-filter: blur(20px); */
-    align-items: center;
+.container{
+    border: solid red;
+    height: 100%;
+    width: 250px;
+    margin-top: 9%;
+    position: absolute;
+    margin-left: 80%;
+    background-color: var(--main-color);
+    z-index: 1;
+    transition: 2s ease;
+    transform: translateX(-70%);
+    visibility: hidden;
+    /* display: none; */
+}
+
+input{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 95%;
     z-index: 2;
-    /* gap: -90px; */
-    width: 30%;
-    border-radius: 20px;
-    transition: 2s;
+    /* -webkit-appearance: none; */
     /* visibility: hidden; */
-    /* transition-timing-function: ease; */
-    height: 70%;
-    transform: translateX(50);
+    /* display: none; */
 }
 
+span{
+    position: absolute;
+    right: -40px;
+    width: 20px;
+    border: solid red;
+    top: 9%;
+    font-size: 25px;
+    cursor: pointer;
+    background: red;
+}
 
+#bars{
+    background: blue;
+}
+#check:checked ~ .container{
+    transform: translateX(100%);
+}
 
+#check:checked ~ .container{
+display: contents;
+visibility: visible;
+}
 
-.list-hidden .list-hover a{
-    color: whitesmoke;
-    /* border: solid blue; */
+.container .heading{
+    color: wheat;
+}
+
+ol{
     width: 100%;
-    display: flex;
-    text-decoration: none;
-    justify-content: center;
-}
-
-
-
-.list-hidden .list1{
-    /* border: solid red; */
-    border-radius: 10px;
-    width: 100%;
-    height: 10%;
-    display: flex;
-    align-items: center;
-
-}
-
-.list-hidden  .list-hover:hover{
-    background-color: rgba(28, 57, 70, 0.914);
-    /* background-color: white; */
-}
-
-.list-hidden .list2{
-    /* border: solid red; */
-    width: 100%;
-    height: 10%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-
-}
-
-.list-hidden .list3{
-    /* border: solid red; */
-    width: 100%;
-    height: 10%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-
-}
-
-.list-hidden .list4{
-    /* border: solid red; */
-    width: 100%;
-    height: 10%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-
-}
-
-.list-hidden .list5{
-    /* border: solid red; */
-    width: 100%;
-    height: 10%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-
-}
-
-.list-hidden .list6{
-    /* border: solid red; */
-    width: 100%;
-    height: 10%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-
-}
-
-.list-hidden .list7{
-    /* border: solid red; */
-    width: 100%;
-    height: 10%;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-
-}
-
-.list-hidden .list-hover{
     list-style: none;
-    /* border: solid blue; */
-    gap: 5px;
+}
+
+ol li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 10px;
+    display: block;
+    font-size: 20px;
+    letter-spacing: 1px;
+    position: relative;
+    transition: 0.3s;
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+ol li a i{
+    border: solid blue;
+    width: 70px;
+    font-size: 25px;
+    text-align: center;
+    padding-left: 30px;
+}
+
+ol li:hover a{
+    background: var(--second-color);
+}
+
+@keyframes slideLeft {
+    from{
+        transform: translateX(300px);
+    }
+
+    to{
+        transform: translateX(-1px);
+    }
 }
 
 
@@ -229,7 +204,7 @@ header{
     /* margin-left: -90%; */
     overflow: hidden;
     overflow-y: scroll;
-    width: 100%;
+    /* width: 100%; */
     /* display: inline-block; */
     height: 700px;
     /* height: 100%; */
@@ -381,28 +356,6 @@ ion-icon {
     font-size: 64px;
   }
 
-  #important-button{
-    /* border: solid red; */
-    width: 5%;
-    position: absolute;
-    margin-left: 95%;
-    /* visibility: hidden; */
-  }
-
-#header-button1{
-    border: solid rgba(28, 57, 70, 0.914);
-    margin-left: -15px;
-    width: 100%;
-    height: 50%;
-    align-items: center;
-    opacity: 0.5;
-    /* background-color: rgba(28, 57, 70, 0.914); */
-    background-color: white;
-    box-shadow: inset 1px 1px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .first-section{
     display: flex;
@@ -789,11 +742,12 @@ ion-icon {
 
 
 @media screen and (max-width: 768px){
-    html,body{
-        /* width: 1600px; */
-        /* height: 8000px; */
-        /* overflow: hidden; */
-        /* border: solid green; */
+    .container{
+        margin-top: 60px;
+    }
+
+    #check{
+        margin-top: 10%;
     }
 
     #header-picture{
