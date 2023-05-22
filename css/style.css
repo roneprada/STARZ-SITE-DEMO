@@ -103,7 +103,7 @@ header{
 
 .container{
     /* border: solid red; */
-    height: 50%;
+    height: 100%;
     width: 250px;
     margin-top: 9%;
     position: absolute;
@@ -732,6 +732,606 @@ ion-icon {
 }
 
 .grid9:hover .cr7{
+    visibility: visible;
+}
+
+.grid11{
+    background-image: url(/image/fast-furious.jpeg);
+    background-size: cover;
+}
+
+.grid11:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid11:hover .cr7{
+    visibility: visible;
+}
+
+.grid22{
+    background-image: url(/image/SPIDER-MAN.jpeg);
+    background-size: cover;
+}
+
+.grid22:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid22:hover .cr7{
+    visibility: visible;
+}
+
+.grid33{
+    background-image: url(/image/iron.webp);
+    background-size: cover;
+}
+
+.grid33:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid33:hover .cr7{
+    visibility: visible;
+}
+
+.grid44{
+    background-image: url(/image/harry-potter.jpg);
+    background-size: cover;
+}
+
+.grid44:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid44:hover .cr7{
+    visibility: visible;
+}
+
+.grid55{
+    background-image: url(/image/AVATAR.jpeg);
+    background-size: cover;
+}
+
+.grid55:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid55:hover .cr7{
+    visibility: visible;
+}
+
+.grid66{
+    background-image: url(/image/GARDIAN-GALAXY.jpg);
+    background-size: cover;
+}
+
+.grid66:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid66:hover .cr7{
+    visibility: visible;
+}
+
+.grid77{
+    background-image: url(/image/CARS.jpg);
+    background-size: cover;
+}
+
+.grid77:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid77:hover .cr7{
+    visibility: visible;
+}
+
+.grid88{
+    background-image: url(/image/hunter\ x\ hunter.jpg);
+    background-size: cover;
+}
+
+.grid88:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid88:hover .cr7{
+    visibility: visible;
+}
+
+.grid99{
+    background-image: url(/image/ONE-PIECE.jpg);
+    background-size: cover;
+}
+
+.grid99:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid99:hover .cr7{
+    visibility: visible;
+}
+
+.grid10{
+    background-image: url(/image/whitemen.jpg);
+    background-size: cover;
+}
+
+.grid10:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid10:hover .cr7{
+    visibility: visible;
+}
+
+.grid111{
+    background-image: url(/image/white-house.jpg);
+    background-size: cover;
+}
+
+.grid111:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid111:hover .cr7{
+    visibility: visible;
+}
+
+.grid222{
+    background-image: url(/image/me-time.jpeg);
+    background-size: cover;
+}
+
+.grid222:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid222:hover .cr7{
+    visibility: visible;
+}
+
+.grid333{
+    background-image: url(/image/creed.jpg);
+    background-size: cover;
+}
+
+.grid333:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid333:hover .cr7{
+    visibility: visible;
+}
+
+.grid444{
+    background-image: url(/image/black-mirror.jpeg);
+    background-size: cover;
+}
+
+.grid444:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid444:hover .cr7{
+    visibility: visible;
+}
+
+.grid555{
+    background-image: url(/image/GRAY-MAN.jpeg);
+    background-size: cover;
+}
+
+.grid555:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid555:hover .cr7{
+    visibility: visible;
+}
+
+.grid666{
+    background-image: url(/image/VENOM.jpg);
+    background-size: cover;
+}
+
+.grid666:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid666:hover .cr7{
+    visibility: visible;
+}
+
+.grid777{
+    background-image: url(/image/naruto.jpeg);
+    background-size: cover;
+}
+
+.grid777:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid777:hover .cr7{
+    visibility: visible;
+}
+
+.grid888{
+    background-image: url(/image/grown\ ups.jpg);
+    background-size: cover;
+}
+
+.grid888:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid888:hover .cr7{
+    visibility: visible;
+}
+
+.grid999{
+    background-image: url(/image/jaws_1975_film_poster.webp);
+    background-size: cover;
+}
+
+.grid999:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid999:hover .cr7{
+    visibility: visible;
+}
+
+.grid100{
+    background-image: url(/image/STAR\ WARS.jpeg);
+    background-size: cover;
+}
+
+.grid100:hover .card-bod{
+    /* width: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    color: rgb(255, 253, 253);
+    font-weight: bolder;
+    position: relative;
+    /* border: red solid; */
+    top: 0;
+    bottom: -100%;
+    background: #1f3d4738;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    /* visibility: hidden; */
+    /* opacity: 0.5; */
+    transition: 1s;
+    visibility: visible;
+}
+
+.grid100:hover .cr7{
     visibility: visible;
 }
 
