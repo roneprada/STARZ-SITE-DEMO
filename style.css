@@ -139,16 +139,7 @@ span{
 }
 
 
-#check:checked ~ .container{
-    transform: translateX(-70%);
-    transition: 1s;
-}
 
-#check:checked ~ .container{
-/* display: contents; */
-transition: 1s;
-visibility: visible;
-}
 
 .container .heading{
     color: wheat;
@@ -184,15 +175,7 @@ ol li:hover a{
     background: var(--second-color);
 }
 
-@keyframes slideLeft {
-    from{
-        transform: translateX(300px);
-    }
 
-    to{
-        transform: translateX(-1px);
-    }
-}
 
 
 #inside-body{
