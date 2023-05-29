@@ -21,7 +21,7 @@ body{
     /* flex-wrap: wrap; */
     background-color: rgba(28, 57, 70, 0.914);
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     /* display: inline-block; */
     /* overflow-x: hidden; */
 }
@@ -34,6 +34,7 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
+    overflow-y: hidden;
     /* overflow-x: hidden;  */
 }
 
@@ -137,9 +138,7 @@ span{
     background: red;
 }
 
-#bars{
-    /* background: blue; */
-}
+
 #check:checked ~ .container{
     transform: translateX(-70%);
     transition: 1s;
@@ -209,8 +208,9 @@ ol li:hover a{
     overflow-y: scroll;
     /* width: 100%; */
     /* display: inline-block; */
+    margin-bottom: 0px;
     /* height: 700px; */
-    /* height: 100%; */
+    height: 100%;
 }
 
 .image-logo{
@@ -324,7 +324,7 @@ height: 100%;
     width: 4%;
     height: 40px; 
     border-radius: 40px 40px 40px 40px;
-    background-image: url(../image/664758.png);
+    background-image: url(../STARZ-SITE-DEMO/image/664758.png);
     background-size: cover;
     margin-bottom: 10px;
     /* justify-items: flex-end; */
@@ -367,8 +367,9 @@ ion-icon {
     /* width: 80%; */
     /* border: solid red; */
     height: 500px;
-    background-image: url(../image/black-panther.webp);
+    background-image: url(../STARZ-SITE-DEMO/image/black-panther.webp);
     background-size: cover;
+    background-position: 20px;
     /* width: 100%; */
 }
 
@@ -432,7 +433,7 @@ ion-icon {
 }
 
 .grid1{
-    background-image: url(../image/ronaldoXmessi.jpg);
+    background-image: url(..//STARZ-SITE-DEMO/image/ronaldoXmessi.jpg);
     background-size: cover;
     overflow: hidden;
 }
@@ -495,7 +496,7 @@ ion-icon {
 }
 
 .grid2{
-    background-image: url(../image/Interstellar-366875261-large.jpg);
+    background-image: url(../STARZ-SITE-DEMO/image/Interstellar-366875261-large.jpg);
     background-size: cover;
     overflow: hidden;
 }
@@ -526,7 +527,7 @@ ion-icon {
 }
 
 .grid3{
-    background-image: url(../image/happy\ gilmore.webp);
+    background-image: url(../STARZ-SITE-DEMO/image/happy\ gilmore.webp);
     background-size: cover;
 }
 
@@ -556,7 +557,7 @@ ion-icon {
 }
 
 .grid4{
-    background-image: url(../image/shutter\ island.jpg);
+    background-image: url(../STARZ-SITE-DEMO/image/shutter\ island.jpg);
     background-size: cover;
 }
 
@@ -586,7 +587,7 @@ ion-icon {
 }
 
 .grid5{
-    background-image: url(../image/the-wolf-of-wallstreet.jpg);
+    background-image: url(../STARZ-SITE-DEMO/image/the-wolf-of-wallstreet.jpg);
     background-size: cover;
 }
 
@@ -616,7 +617,7 @@ ion-icon {
 }
 
 .grid6{
-    background-image: url(../image/elon-musk.jpg);
+    background-image: url(../STARZ-SITE-DEMO/image/elon-musk.jpg);
     background-size: cover;
 }
 
@@ -646,7 +647,7 @@ ion-icon {
 }
 
 .grid7{
-    background-image: url(../image/JOHN-WICK.jpeg);
+    background-image: url(../STARZ-SITE-DEMO/image/JOHN-WICK.jpeg);
     background-size: cover;
 }
 
@@ -676,7 +677,7 @@ ion-icon {
 }
 
 .grid8{
-    background-image: url(../image/omar\ sy.jpg);
+    background-image: url(../STARZ-SITE-DEMO/image/omar\ sy.jpg);
     background-size: cover;
 }
 
@@ -706,7 +707,7 @@ ion-icon {
 }
 
 .grid9{
-    background-image: url(../image/les\ intouchable.jpg);
+    background-image: url(../STARZ-SITE-DEMO/image/les\ intouchable.jpg);
     background-size: cover;
 }
 
@@ -736,7 +737,7 @@ ion-icon {
 }
 
 .grid11{
-    background-image: url(../image/fast-furious.jpeg);
+    background-image: url(../STARZ-SITE-DEMO/image/fast-furious.jpeg);
     background-size: cover;
 }
 
@@ -766,7 +767,7 @@ ion-icon {
 }
 
 .grid22{
-    background-image: url(../image/SPIDER-MAN.jpeg);
+    background-image: url(../STARZ-SITE-DEMO/image/SPIDER-MAN.jpeg);
     background-size: cover;
 }
 
@@ -796,7 +797,7 @@ ion-icon {
 }
 
 .grid33{
-    background-image: url(../image/iron.webp);
+    background-image: url(../STARZ-SITE-DEMO/image/iron.webp);
     background-size: cover;
 }
 
@@ -826,7 +827,7 @@ ion-icon {
 }
 
 .grid44{
-    background-image: url(../image/harry-potter.jpg);
+    background-image: url(../STARZ-SITE-DEMO/image/harry-potter.jpg);
     background-size: cover;
 }
 
@@ -856,7 +857,7 @@ ion-icon {
 }
 
 .grid55{
-    background-image: url(../image/AVATAR.jpeg);
+    background-image: url(../STARZ-SITE-DEMO/image/AVATAR.jpeg);
     background-size: cover;
 }
 
@@ -886,7 +887,7 @@ ion-icon {
 }
 
 .grid66{
-    background-image: url(../image/GARDIAN-GALAXY.jpg);
+    background-image: url(../STARZ-SITE-DEMO/image/GARDIAN-GALAXY.jpg);
     background-size: cover;
 }
 
@@ -916,7 +917,7 @@ ion-icon {
 }
 
 .grid77{
-    background-image: url(../image/CARS.jpg);
+    background-image: url(../STARZ-SITE-DEMO/image/CARS.jpg);
     background-size: cover;
 }
 
@@ -946,7 +947,7 @@ ion-icon {
 }
 
 .grid88{
-    background-image: url(../image/hunter\ x\ hunter.jpg);
+    background-image: url(../STARZ-SITE-DEMO/image/hunter\ x\ hunter.jpg);
     background-size: cover;
 }
 
@@ -976,7 +977,7 @@ ion-icon {
 }
 
 .grid99{
-    background-image: url(../image/ONE-PIECE.jpg);
+    background-image: url(../STARZ-SITE-DEMO/image/ONE-PIECE.jpg);
     background-size: cover;
 }
 
@@ -1006,7 +1007,7 @@ ion-icon {
 }
 
 .grid10{
-    background-image: url(../image/whitemen.jpg);
+    background-image: url(../STARZ-SITE-DEMO/image/whitemen.jpg);
     background-size: cover;
 }
 
@@ -1036,7 +1037,7 @@ ion-icon {
 }
 
 .grid111{
-    background-image: url(../image/white-house.jpg);
+    background-image: url(../STARZ-SITE-DEMO/image/white-house.jpg);
     background-size: cover;
 }
 
@@ -1066,7 +1067,7 @@ ion-icon {
 }
 
 .grid222{
-    background-image: url(../image/me-time.jpeg);
+    background-image: url(../STARZ-SITE-DEMO/image/me-time.jpeg);
     background-size: cover;
 }
 
@@ -1096,7 +1097,7 @@ ion-icon {
 }
 
 .grid333{
-    background-image: url(../image/creed.jpg);
+    background-image: url(../STARZ-SITE-DEMO/image/creed.jpg);
     background-size: cover;
 }
 
@@ -1126,7 +1127,7 @@ ion-icon {
 }
 
 .grid444{
-    background-image: url(../image/black-mirror.jpeg);
+    background-image: url(../STARZ-SITE-DEMO/image/black-mirror.jpeg);
     background-size: cover;
 }
 
@@ -1156,7 +1157,7 @@ ion-icon {
 }
 
 .grid555{
-    background-image: url(../image/GRAY-MAN.jpeg);
+    background-image: url(../STARZ-SITE-DEMO/image/GRAY-MAN.jpeg);
     background-size: cover;
 }
 
@@ -1186,7 +1187,7 @@ ion-icon {
 }
 
 .grid666{
-    background-image: url(../image/VENOM.jpg);
+    background-image: url(../STARZ-SITE-DEMO/image/VENOM.jpg);
     background-size: cover;
 }
 
@@ -1216,7 +1217,7 @@ ion-icon {
 }
 
 .grid777{
-    background-image: url(../image/naruto.jpeg);
+    background-image: url(../STARZ-SITE-DEMO/image/naruto.jpeg);
     background-size: cover;
 }
 
@@ -1246,7 +1247,7 @@ ion-icon {
 }
 
 .grid888{
-    background-image: url(../image/grown\ ups.jpg);
+    background-image: url(../STARZ-SITE-DEMO/image/grown\ ups.jpg);
     background-size: cover;
 }
 
@@ -1276,7 +1277,7 @@ ion-icon {
 }
 
 .grid999{
-    background-image: url(../image/jaws_1975_film_poster.webp);
+    background-image: url(../STARZ-SITE-DEMO/image/jaws_1975_film_poster.webp);
     background-size: cover;
 }
 
@@ -1306,7 +1307,7 @@ ion-icon {
 }
 
 .grid100{
-    background-image: url(../image/STAR\ WARS.jpeg);
+    background-image: url(../STARZ-SITE-DEMO/image/STAR\ WARS.jpeg);
     background-size: cover;
 }
 
@@ -1342,6 +1343,10 @@ ion-icon {
 @media screen and (max-width: 768px){
     .container{
         margin-top: 60px;
+    }
+
+    .first-section{
+        background-position: -400px;
     }
 
     #check{
